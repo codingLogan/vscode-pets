@@ -93,6 +93,10 @@ const pets: { [key: string]: { colors: string[]; states: string[] } } = {
         colors: ['green', 'orange'],
         states: ['idle', 'run', 'walk', 'lie', 'with_ball'],
     },
+    knight: {
+        colors: ['white'],
+        states: ['idle', 'walk', 'run', 'with_ball'],
+    },
 };
 
 function checkGifFilenames(folder: string) {
